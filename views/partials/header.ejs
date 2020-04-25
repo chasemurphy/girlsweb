@@ -26,7 +26,7 @@
 <body>
     
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a href="#" class="navbar-brand">
+        <a href="/" class="navbar-brand">
             <h3 class="mb-0">Murphy Family</h3>
         </a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#mainNavbar">
@@ -39,18 +39,29 @@
                 </li>
                 <li class="nav-item">
                     
-                    <a href="/" class="nav-link">Daddy</a>
+                    <a href="/<%=daddy%>" class="nav-link">Daddy</a>
                     
                 </li>
                 <li class="nav-item">
-                    <a href="#explore" class="nav-link">Mommy</a>
+                    <a href="/<%=mommy%>" class="nav-link">Mommy</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#footer" class="nav-link">Parker</a>
+                    <a href="/<%=parker%>" class="nav-link">Parker</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#footer" class="nav-link">Kenna</a>
+                    <a href="/<%=kenna%>"" class="nav-link">Kenna</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Login
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Sign In</a>
+                      <a class="dropdown-item" href="#">Sign Out</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Register</a>
+                    </div>
+                  </li>
 
             </ul>
         </div>

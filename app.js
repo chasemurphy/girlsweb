@@ -28,7 +28,9 @@ app.use(flash());
 //Routes
 app.use(indexRoutes);
 
-//seedDB();
+
+
+seedDB();
 
 // var daddy = Person.findOne({nickname:"Daddy"}, function(err, foundPerson){
 //     if(err){

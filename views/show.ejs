@@ -3,13 +3,17 @@
 <div class="container my-3 my-md-5">
 
         <div class="row">
-          <div class="col-md-6 offset-md-3 mb-sm-3" >          
+          <div class="col-md-8 offset-md-2 mt-5" >          
             <div class="card">
               <img src="<%=person.image%>" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title"><%=person.nickname%></h5>
-                <p class="card-text text-muted"><%=person.city%>, <%=person.state%></p>
-                <a href="#" class="btn btn-primary">More...</a> 
+                <p class="card-subtitle text-muted"><%=person.city%>, <%=person.state%></p>
+                <p class="card-text mt-3">Kenna Brook is a loving caring sweetheart with a Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, totam.</p>
+                <hr>
+                <p class="card-text"><%=person.firstname%> was born on <%=person.birthmonth%>/<%=person.birthday%>/<%=person.birthyear%></p>
+                <p class="card-text"><%=person.firstname%> is <%=2020 - person.birthyear%> years old</p>
+                
               </div>
             </div>
           </div>

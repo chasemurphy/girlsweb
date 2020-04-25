@@ -9,7 +9,7 @@ var data = [
         nickname: "Daddy",
         city: "Spring",
         state: "Texas",
-        image: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/82961395_10217879967284092_1148255095654187008_o.jpg?_nc_cat=109&_nc_sid=110474&_nc_ohc=qf3vA84U3IIAX_LEvb1&_nc_ht=scontent-dfw5-1.xx&oh=56079019a03e63579d1aabcabb74dd2e&oe=5EC2DFB7" 
+        image: "https://murphyfamily.s3.us-east-2.amazonaws.com/images/DaddyMommy.jpg" 
 
     },
     {
@@ -18,7 +18,7 @@ var data = [
         nickname: "Mommy",
         city: "Purgatory",
         state: "Texas",
-        image: "https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/82961395_10217879967284092_1148255095654187008_o.jpg?_nc_cat=109&_nc_sid=110474&_nc_ohc=qf3vA84U3IIAX_LEvb1&_nc_ht=scontent-dfw5-1.xx&oh=56079019a03e63579d1aabcabb74dd2e&oe=5EC2DFB7" 
+        image: "https://murphyfamily.s3.us-east-2.amazonaws.com/images/DaddyMommy.jpg" 
 
     },
     {
@@ -35,6 +35,9 @@ var data = [
         lastname: "Murphy",
         city: "Spring",
         nickname: "Kenny B",
+        birthmonth: "9",
+        birthday: "30",
+        birthyear: "2015",
         state: "Texas",
         image: "https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/91067787_10218507270726286_6471672952294211584_n.jpg?_nc_cat=102&_nc_sid=110474&_nc_ohc=sc6BsG8VqPgAX_GNQ18&_nc_ht=scontent-dfw5-2.xx&oh=7301036c0d6b5801650b825d4016a68c&oe=5EBFD5C4" 
 
