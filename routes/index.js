@@ -13,17 +13,17 @@ var middleware          = require("../middleware");
     //res.render("home");
 
 
-router.get("/:id", middleware.getHeader, function(req, res){
-    Person.findOne({_id:req.params.id}, function(err, foundPerson){
-        if(err){
-            console.log(err);
-        } else {
-            //console.log(foundPerson);
-            res.render("show", {person:foundPerson});
-        }
-    });
-    //res.render("show");
-});
+// router.get("/:id", middleware.getHeader, function(req, res){
+//     Person.findOne({_id:req.params.id}, function(err, foundPerson){
+//         if(err){
+//             console.log(err);
+//         } else {
+//             //console.log(foundPerson);
+//             res.render("show", {person:foundPerson});
+//         }
+//     });
+//     //res.render("show");
+// });
 
 
 

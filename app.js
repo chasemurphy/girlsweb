@@ -9,6 +9,7 @@ var express             = require("express"),
    // Links               = require("./links");
     
 var indexRoutes         = require("./routes/index");
+var memberRoutes    = require("./routes/member");
 
 
 
@@ -27,6 +28,7 @@ app.use(flash());
 
 //Routes
 app.use(indexRoutes);
+app.use("/member", memberRoutes);
 
 
 
